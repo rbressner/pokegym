@@ -1,0 +1,24 @@
+body {
+  background-image: url("background3.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(230, 230, 230);
+  background-origin: padding-box;
+  background-position-x: 50%;
+  background-position-y: 0%;
+  background-size: 1400px 800px;
+  color: rgb(40, 40, 40);
+  display: block;
+}
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 50%;
+  height: 900px;
+  position: absolute;
+  margin: auto;
+  top: 200px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
