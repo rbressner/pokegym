@@ -17,8 +17,54 @@ body {
   height: 900px;
   position: absolute;
   margin: auto;
-  top: 200px;
+  top: 180px;
   bottom: 0;
   right: 0;
   left: 0;
+  animation: slideIn 3s forwards;
+}
+@keyframes slideIn {
+  from {
+    margin-top: -1300px
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 2px blue;
+}
+.accordion {
+    background-color: transparent;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+img {
+  float: right;
+  width: 50px;
 }
