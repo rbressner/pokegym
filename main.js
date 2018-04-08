@@ -3,5 +3,5 @@ callAxiosMinhal(function(Minhal) {
   })
 
   callAxiosRachel(function(Rachel) {
-    console.log(Rachel.pokemon)
+    console.log(Rachel.all)
   })
