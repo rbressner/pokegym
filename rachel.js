@@ -44,15 +44,25 @@ function cardflip() {
 }
 
 
+
+
 // class to define singular pokemon (individual class)
-class Pokemon {
-  constructor(hp, attack, defense, abilities) {
-      this.hp = hp.toString()
-      this.attack = attack.toString()
-      this.defense = defense.toString()
-      this.abilities = abilities
-    }
+class PokemonAll {
+  constructor() {
+    this.all = []
+  }
+
+  class Rachel {
+    constructor(hp, attack, defense, abilities) {
+        this.hp = hp.toString()
+        this.attack = attack.toString()
+        this.defense = defense.toString()
+        this.abilities = abilities
+      }
+  }
+
 }
+
 
 // Diglett
 axios.get("https://pokeapi.co/api/v2/pokemon/50/")
@@ -64,7 +74,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/50/")
       li.setAttribute("id", "diglettnames")
 
 
-      let diglett = new Pokemon(
+      let diglett = new Rachel(
         data.stats[5].base_stat,
         data.stats[4].base_stat,
         data.stats[3].base_stat,
@@ -101,7 +111,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/132/")
       li.setAttribute("id", "dittonames")
 
 
-      let ditto = new Pokemon(
+      let ditto = new Rachel(
         data.stats[5].base_stat,
         data.stats[4].base_stat,
         data.stats[3].base_stat,
@@ -135,7 +145,7 @@ axios.get("https://pokeapi.co/api/v2/pokemon/152/")
       li.setAttribute("id", "chikoritanames")
 
 
-      let chikorita = new Pokemon(
+      let chikorita = new Rachel(
         data.stats[5].base_stat,
         data.stats[4].base_stat,
         data.stats[3].base_stat,
