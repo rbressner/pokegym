@@ -1,5 +1,5 @@
 
-class Pokemon {
+class PokemonMinhal {
     constructor(name, hp, attack, defense, abilities = []) {
         this.hp = hp
         this.attack = attack
@@ -38,7 +38,7 @@ class MingKinhal {
 
 let minhal = new MingKinhal()
 
-function callAxios(callback) {
+function callAxiosMinhal(callback) {
     //https://pokeapi.co/api/v2/pokemon/65/
     let url1 = "https://raw.githubusercontent.com/mag166/personalPokedex/master/alakazamJSON.json"
 
@@ -55,7 +55,7 @@ function callAxios(callback) {
         .then(responses => {
             responses.forEach(response => {
                 let data = response.data
-                let pokemon = new Pokemon(
+                let pokemon = new PokemonMinhal(
                     data.name,
                     data.stats[5].base_stat,
                     data.stats[4].base_stat,
@@ -72,6 +72,3 @@ function callAxios(callback) {
         })
 }
 
-callAxios(function(people) {
-    console.log(people)
-  })
