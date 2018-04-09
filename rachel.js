@@ -12,6 +12,7 @@ class PokemonAll {
   add(pokemon){
     this.all.push(pokemon)
   }
+
 }
   class Rachel {
     constructor(name, hp, attack, defense, abilities = []) {

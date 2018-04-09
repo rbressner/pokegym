@@ -1,27 +1,27 @@
 callAxiosMinhal(function(Minhal) {
     console.log(Minhal.pokemon)
     //Alakazam
-    let li = document.createElement("li")
+    let li1 = document.createElement("li")
     let alakazamPanel = document.getElementById("alakazam")
     let alakazam = Minhal.get("alakazam")
-    li.innerHTML = "<p>HP: " + alakazam.hp + "</p> <p>Attack: " + alakazam.attack +
+    li1.innerHTML = "<p>HP: " + alakazam.hp + "</p> <p>Attack: " + alakazam.attack +
     "</p> <p>Defense: " + alakazam.defense + "</p>"
     
-    li.innerHTML += "<p>Abilities:"
+    li1.innerHTML += "<p>Abilities:"
     alakazam.abilities.forEach(item => {
 
-   li.innerHTML += item + "/ "
+   li1.innerHTML += item + " / "
    })
-    li.innerHTML += "</p>"
-    alakazamPanel.appendChild(li)
+    li1.innerHTML += "</p>"
+    alakazamPanel.appendChild(li1)
 
     //Arceus
-    let li = document.createElement("li")
+    let li2 = document.createElement("li")
     let arceusPanel = document.getElementById("arceus")
     let arceus = Minhal.get("arceus")
 
      //Machamp
-     let li = document.createElement("li")
+     let li3 = document.createElement("li")
      let machampPanel = document.getElementById("machamp")
      let machamp = Minhal.get("machamp")
 
