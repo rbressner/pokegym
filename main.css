@@ -64,7 +64,15 @@ h2 {
     background-color: white;
     overflow: hidden;
 }
-img {
+.gif-button {
   float: right;
   width: 50px;
+}
+.card-img1 {
+  float: right;
+  width: 200px;
+}
+.card-img2 {
+  float: right;
+  width: 300px;
 }
