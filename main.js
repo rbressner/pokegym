@@ -19,11 +19,31 @@ callAxiosMinhal(function(Minhal) {
     let li2 = document.createElement("li")
     let arceusPanel = document.getElementById("arceus")
     let arceus = Minhal.get("arceus")
+    li2.innerHTML = "<p>HP: " + arceus.hp + "</p> <p>Attack: " + arceus.attack +
+    "</p> <p>Defense: " + arceus.defense + "</p>"
+    
+    li2.innerHTML += "<p>Abilities:"
+    arceus.abilities.forEach(item => {
+
+   li2.innerHTML += item + " / "
+   })
+    li2.innerHTML += "</p>"
+    arceusPanel.appendChild(li2)
 
      //Machamp
      let li3 = document.createElement("li")
      let machampPanel = document.getElementById("machamp")
      let machamp = Minhal.get("machamp")
+    li3.innerHTML = "<p>HP: " + machamp.hp + "</p> <p>Attack: " + machamp.attack +
+    "</p> <p>Defense: " + machamp.defense + "</p>"
+    
+    li3.innerHTML += "<p>Abilities:"
+    machamp.abilities.forEach(item => {
+
+   li3.innerHTML += item + " / "
+   })
+    li3.innerHTML += "</p>"
+    machampPanel.appendChild(li3)
 
 
 
