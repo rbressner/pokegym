@@ -13,6 +13,13 @@ class PokemonAll {
     this.all.push(pokemon)
   }
 
+  get(name) {
+    for (let i = 0; i < this.all.length; i++) {
+        if (name == this.all[i].name) {
+            return this.all[i]
+        }
+    }
+}
 }
   class Rachel {
     constructor(name, hp, attack, defense, abilities = []) {
