@@ -6,7 +6,7 @@ callAxiosMinhal(function(Minhal) {
     let alakazam = Minhal.get("alakazam")
     li1.innerHTML = "<p>HP: " + alakazam.hp + "</p> <p>Attack: " + alakazam.attack +
     "</p> <p>Defense: " + alakazam.defense + "</p>"
-    
+
     li1.innerHTML += "<p>Abilities:"
     alakazam.abilities.forEach(item => {
 
@@ -36,7 +36,7 @@ callAxiosMinhal(function(Minhal) {
      let machamp = Minhal.get("machamp")
 
 
- 
+
 
 
   })
