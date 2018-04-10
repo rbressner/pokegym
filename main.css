@@ -118,7 +118,7 @@ h2 {
   text-shadow: 2px 2px blue;
   position: absolute;
   margin-top: 0;
-  margin-left: 2000px;
+  margin-left: 1850px;
   opacity: 0;
   animation: minhal 6.5s forwards;
 }
@@ -126,7 +126,7 @@ h2 {
   0% {
   position: absolute;
   margin-top: 0;
-  margin-left: 2000px;
+  margin-left: 1850px;
   opacity: 1;
   }
   99% {
@@ -146,7 +146,7 @@ h2 {
   text-shadow: 2px 2px blue;
   position: absolute;
   margin-top: 0;
-  margin-left: 300px;
+  margin-left: -400px;
   opacity: 0;
   animation: rachel 6.5s forwards;
 }
@@ -154,7 +154,7 @@ h2 {
   0% {
   position: absolute;
   margin-top: 0;
-  margin-left: -500px;
+  margin-left: -450px;
   opacity: 1;
   }
   99% {

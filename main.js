@@ -51,9 +51,53 @@ callAxiosMinhal(function(Minhal) {
 
   })
 
-  callAxiosRachel(function(Rachel) {
-    console.log(Rachel.all)
-  })
+     callAxiosRachel(function(Rachel) {
+      console.log(Rachel.all)
+           //Diglett
+           let li4 = document.createElement("li")
+           let diglettPanel = document.getElementById("diglett")
+           let diglett = Rachel.get("diglett")
+          li4.innerHTML = "<p>HP: " + diglett.hp + "</p> <p>Attack: " + diglett.attack +
+          "</p> <p>Defense: " + diglett.defense + "</p>"
+  
+          li4.innerHTML += "<p>Abilities:"
+          diglett.abilities.forEach(item => {
+  
+         li4.innerHTML += item + " / "
+         })
+          li4.innerHTML += "</p>"
+          diglettPanel.appendChild(li4)
+  
+           //Ditto
+           let li5 = document.createElement("li")
+           let dittoPanel = document.getElementById("ditto")
+           let ditto = Rachel.get("ditto")
+          li5.innerHTML = "<p>HP: " + ditto.hp + "</p> <p>Attack: " + ditto.attack +
+          "</p> <p>Defense: " + ditto.defense + "</p>"
+
+          li5.innerHTML += "<p>Abilities:"
+          ditto.abilities.forEach(item => {
+
+         li5.innerHTML += item + " / "
+         })
+          li5.innerHTML += "</p>"
+          dittoPanel.appendChild(li5)
+
+           //Chikorita
+           let li6 = document.createElement("li")
+           let chikoritaPanel = document.getElementById("chikorita")
+           let chikorita = Rachel.get("chikorita")
+          li6.innerHTML = "<p>HP: " + chikorita.hp + "</p> <p>Attack: " + chikorita.attack +
+          "</p> <p>Defense: " + chikorita.defense + "</p>"
+
+          li6.innerHTML += "<p>Abilities:"
+          chikorita.abilities.forEach(item => {
+
+         li6.innerHTML += item + " / "
+         })
+          li6.innerHTML += "</p>"
+          chikoritaPanel.appendChild(li6)
+     })
 
 
 
