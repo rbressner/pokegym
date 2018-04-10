@@ -115,7 +115,8 @@ h2 {
     opacity: 0;}
 }
 .minhal {
-  text-shadow: 2px 2px blue;
+  text-shadow: 2px 2px black;
+  color: white;
   position: absolute;
   margin-top: 0;
   margin-left: 1850px;
@@ -143,7 +144,8 @@ h2 {
   }
 }
 .rachel {
-  text-shadow: 2px 2px blue;
+  text-shadow: 2px 2px white;
+  color: black;
   position: absolute;
   margin-top: 0;
   margin-left: -400px;
