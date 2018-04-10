@@ -14,7 +14,7 @@ body {
 .content {
   background-color: rgba(255, 255, 255, 0.8);
   width: 50%;
-  height: 900px;
+  height: 1500px;
   position: absolute;
   margin: auto;
   top: 150px;
@@ -171,4 +171,45 @@ h2 {
   margin-left: 3000px;
   opacity: 0;
   }
+}
+.tv {
+  position: absolute;
+  margin: auto;
+  top: 1050px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 300px;
+  opacity: 0;
+  animation: fightin 1s forwards;
+  animation-delay: 10s;
+}
+.weights {
+  width: 200px;
+  height: 153px;
+  position: absolute;
+  margin: auto;
+  top: 1050px;
+  bottom: 15px;
+  right: 50px;
+  left: 0;
+  opacity: 0;
+  animation: fightin 1s forwards;
+  animation-delay: 10s;
+}
+.fight {
+  font-size: 40px;
+  position: absolute;
+  margin: auto;
+  top: 1000px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+  animation: fightin 1s forwards;
+  animation-delay: 10s;
+}
+@keyframes fightin {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
