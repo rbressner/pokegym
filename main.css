@@ -82,6 +82,11 @@ h2 {
   width: 200px;
 }
 
+.card-img2 {
+  float: right;
+  width: 200px;
+}
+
 .vs {
   z-index: -1;
   animation: vs 5s forwards;
