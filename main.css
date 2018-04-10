@@ -1,3 +1,7 @@
+/* font-family: 'Dosis', sans-serif; */
+/* font-family: 'Quicksand', sans-serif; */
+
+
 body {
   background-image: url("background3.png");
   background-repeat: no-repeat;
@@ -10,6 +14,7 @@ body {
   background-size: 1400px 800px;
   color: rgb(40, 40, 40);
   display: block;
+  font-family: 'Dosis', sans-serif;
 }
 .content {
   background-color: rgba(255, 255, 255, 0.8);
@@ -40,6 +45,7 @@ body {
   opacity: 0;
   animation: fadeIn 3s forwards;
   animation-delay: 7s;
+  font-family: 'Quicksand', sans-serif;
 }
 @keyframes fadeIn {
   from {opacity: 0;}
@@ -49,6 +55,7 @@ h2 {
   text-align: center;
   text-decoration: underline;
   text-shadow: 2px 2px blue;
+  font-family: 'Quicksand', sans-serif;
 }
 .accordion {
     background-color: transparent;
@@ -208,6 +215,7 @@ h2 {
   opacity: 0;
   animation: fightin 1s forwards;
   animation-delay: 10s;
+  font-family: 'Quicksand', sans-serif;
 }
 @keyframes fightin {
   from {opacity: 0;}
