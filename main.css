@@ -179,19 +179,19 @@ h2 {
   bottom: 0;
   right: 0;
   left: 0;
-  width: 300px;
+  width: 500px;
   opacity: 0;
   animation: fightin 1s forwards;
   animation-delay: 10s;
 }
 .weights {
-  width: 200px;
-  height: 153px;
+  width: 340px;
+  height: 250px;
   position: absolute;
   margin: auto;
   top: 1050px;
-  bottom: 15px;
-  right: 50px;
+  bottom: 28px;
+  right: 100px;
   left: 0;
   opacity: 0;
   animation: fightin 1s forwards;
