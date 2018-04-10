@@ -74,13 +74,3 @@ callAxiosMinhal(function(Minhal) {
           }
       });
   }
-
-
-  let battleDiglett = document.getElementById("card-img1")
-
-  function slide() {
-  window.addEventListener('click', (clickEvent) => {
-    battleDiglett.classList.add("bdiglett")
-
-  })
-}
