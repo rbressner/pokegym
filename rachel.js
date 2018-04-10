@@ -36,9 +36,14 @@ class PokemonAll {
   let allPokemon = new PokemonAll()
 
     function callAxiosRachel(callback) {
-      let url1 = "https://pokeapi.co/api/v2/pokemon/50/"
-      let url2 = "https://pokeapi.co/api/v2/pokemon/132/"
-      let url3 = "https://pokeapi.co/api/v2/pokemon/152/"
+      //https://pokeapi.co/api/v2/pokemon/50/
+      let url1 = "https://raw.githubusercontent.com/rbressner/pokegym/master/diglett.json"
+
+      //https://pokeapi.co/api/v2/pokemon/132/
+      let url2 = "https://raw.githubusercontent.com/rbressner/pokegym/master/ditto.json"
+
+      //https://pokeapi.co/api/v2/pokemon/152/
+      let url3 = "https://raw.githubusercontent.com/rbressner/pokegym/master/chikorita.json"
 
       axios.all([
           axios.get(url1),
